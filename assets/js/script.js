@@ -6,9 +6,9 @@ var now = moment().format("hh mm A");
 
 /* Workday Hour Variable */
 var Workday = [
-    //{ time: "6 AM", event: "" },
-    //{ time: "7 AM", event: "" },
-    //{ time: "8 AM", event: "" },
+    { time: "6 AM", event: "" },
+    { time: "7 AM", event: "" },
+    { time: "8 AM", event: "" },
     { time: "9 AM", event: "" },
     { time: "10 AM", event: "" },
     { time: "11 AM", event: "" },
@@ -19,10 +19,10 @@ var Workday = [
     { time: "4 PM", event: "" },
     { time: "5 PM", event: "" },
     { time: "6 PM", event: "" },
-    //{ time: "7 PM", event: "" },
-    //{ time: "8 PM", event: "" },
-    //{ time: "9 PM", event: "" },
-    //{ time: "10 PM", event: "" },
+    { time: "7 PM", event: "" },
+    { time: "8 PM", event: "" },
+    { time: "9 PM", event: "" },
+    { time: "10 PM", event: "" },
 ];
 
 /* Local Storage check */
